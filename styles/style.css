@@ -1,3 +1,181 @@
-.frist{
-    color:brown;
+/*start here*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
 }
+
+/*banner section styles start here*/
+.banner-section-bg{
+    width: 500px;
+    height: 480px;
+    /* border: 2px solid red;*/
+    margin-top: 80px;
+    margin-right: 20px;
+    margin: o auto;
+    background-image: url('/images/Hero-bg.png');
+    background-position: center;
+    background-color: rgb(0,0,0,0.1);
+    background-size: cover;
+    background-blend-mode: overlay;
+
+}
+.banner-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.banner-sectiom-pic{
+    width: 50%;
+    height:50%;
+    
+}
+.btn-primary{
+    background-color: aliceblue;
+    font-weight: bold;
+    font-size: 15px;
+    top: 38px;
+    
+    border-radius: 5px;
+    width:228px;
+    height: 58px;
+    
+}
+/*main-section-style*/
+.main{
+    max-width: 1360px ;
+    height: 1190px;
+    border:1px solid red;
+    margin: 0 auto;
+    
+}
+.main section{
+    margin-top:20px ;
+    margin-bottom:60 px;
+}
+/*.about-title{*/
+.about web develpoment{
+    width:1400px;
+    height:1380px;
+    border:2px solid red;
+    margin:o auto;
+}
+    
+.about-description{
+    text-align: center;
+    color: black;
+}
+.about-title{
+    text-align: center;
+}
+
+.contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+
+}
+.contents2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    padding:30px;
+}
+.contents3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+
+}
+
+/*midel part style*/
+.Inspiration{
+
+    width: 700px;
+    height:530px;
+    border: 2px solid red;
+    margin: 80px;
+    margin:0 auto;
+    
+}
+.section-title,.section-description{
+    text-align: center;
+    color: black;
+    top: 20px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+/* Target styling start here*/
+.target-section,.target-description{
+     text-align: center;
+     color: black;
+
+}
+.target-container{
+    display: flex;
+    gap:2px;
+
+}
+/*Next target level*/
+.next-target-section,.next-target-description{
+    text-align: center;
+    color: black;
+}
+.next-target-container{
+    display: block;
+    gap: 2px;
+    box-shadow: rgb(0,0,0,0.1);
+}
+/*support part style here*/
+.support{
+
+width: 850px;
+height:590px;
+margin: 40px;
+border:1px silod red;
+margin:0 auto;
+
+.support-content-bg{
+    background-image: url('/images/handshake.jpg');
+}
+
+
+
+
+
+
+
+}
+/*.support-content-bg{
+    width: 1140px;
+    height: 380px;
+    border: 1px solid red;
+    margin: 40px;
+    margin: 0 auto;
+    background-image:url('/images/handshake.jpg');
+    background-position: center;
+    background-color: rgb(0,0,0,0.1);
+    background-size: cover;
+
+}
+.support-content-title,.support-content-para{
+    text-align: center;
+    color: aliceblue;
+}*/
+
+
+
+
+
+
