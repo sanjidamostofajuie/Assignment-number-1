@@ -11,7 +11,7 @@
 .banner-section-bg{
     width: 830px;
     height: 480px;
-     border: 2px solid red;
+    /* border: 2px solid red;*/
      margin: auto;
     margin-top: 40px;
     padding: 190px 230px 
@@ -63,7 +63,7 @@
 .main{
     max-width: 1360px ;
     height: 1190px;
-    border:1px solid red;
+   /* border:1px solid red;*/
     margin: 0 auto;
     
 }
@@ -75,7 +75,7 @@
 .about web develpoment{
     width:1400px;
     height:1380px;
-    border:2px solid red;
+   /* border:2px solid red;*/
     margin:o auto;
 }
     
@@ -114,7 +114,7 @@
 
     width: 700px;
     height:400px;
-    border: 2px solid red;
+   /* border: 2px solid red;*/
     margin: 80px;
     margin:auto;
     
@@ -155,7 +155,7 @@
 width: 850px;
 height:590px;
 margin: 40px;
-border:1px silod red;
+/*border:1px silod red;*/
 margin:0 auto;
 
 .support-content-bg{
@@ -182,7 +182,7 @@ margin:0 auto;
 .support-bg{
     width: 1140px;
     height:300px;
-    border: 1px solid red;
+   /* border: 1px solid red;*/
     background-image: url('/images/handshake.jpg');
     background-position: center;
     background-size: cover;
