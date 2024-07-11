@@ -11,10 +11,10 @@
 .banner-section-bg{
     width: 500px;
     height: 480px;
-    /* border: 2px solid red;*/
-    margin-top: 80px;
-    margin-right: 20px;
-    margin: o auto;
+     border: 2px solid red;
+    margin-top: 40px;
+    padding: 190px 230px 
+    margin:0 auto;
     background-image: url('/images/Hero-bg.png');
     background-position: center;
     background-color: rgb(0,0,0,0.1);
@@ -66,13 +66,11 @@
     margin:o auto;
 }
     
-.about-description{
+.about-description,.about-title{
     text-align: center;
     color: black;
 }
-.about-title{
-    text-align: center;
-}
+
 
 .contents{
     display: flex;
@@ -102,10 +100,10 @@
 .Inspiration{
 
     width: 700px;
-    height:530px;
+    height:400px;
     border: 2px solid red;
     margin: 80px;
-    margin:0 auto;
+    margin:auto;
     
 }
 .section-title,.section-description{
@@ -120,6 +118,7 @@
 .target-section,.target-description{
      text-align: center;
      color: black;
+     
 
 }
 .target-container{
@@ -167,6 +166,25 @@ margin:0 auto;
     text-align: center;
     color: aliceblue;
 }*/
+.support-bg{
+    width: 1140px;
+    height:300px;
+    border: 1px solid red;
+    background-image: url('/images/handshake.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(0,0,0,0.1);
+    margin: auto;
+
+}
+.support-text{
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 /*footer styles*/
 .secondary-bg{
