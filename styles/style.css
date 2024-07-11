@@ -9,19 +9,23 @@
 
 /*banner section styles start here*/
 .banner-section-bg{
-    width: 500px;
+    width: 830px;
     height: 480px;
      border: 2px solid red;
+     margin: auto;
     margin-top: 40px;
     padding: 190px 230px 
-    margin:0 auto;
-    background-image: url('/images/Hero-bg.png');
+    background-image:url('/images/h')
     background-position: center;
+    background-image: url('/images/Hero-bg.png');
     background-color: rgb(0,0,0,0.1);
     background-size: cover;
     background-blend-mode: overlay;
-
 }
+.banner-section-bg{
+    background-image: url('/images/Hero-bg.png');
+}
+
 .banner-content{
     display:flex;
     flex-direction: column;
@@ -36,17 +40,26 @@
     
 }
 .btn-primary{
-    background-color: aliceblue;
+    background-color:black;
     font-weight: bold;
     font-size: 15px;
     top: 38px;
-    
+    color: aliceblue;
     border-radius: 5px;
     width:228px;
     height: 58px;
     
 }
 /*main-section-style*/
+/*.main-part{
+    width: 1140px;
+    height: 1070px;
+    border: 1px solid black;
+    padding: 800px;
+    margin: auto;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+}*/
 .main{
     max-width: 1360px ;
     height: 1190px;
